@@ -1,13 +1,80 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  color: #fff;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+  line-height: 1.25;
+}
+body {
+  background-image: url(/public/john-towner-89PFnHKg8HE-unsplash.jpg);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Weather h1 {
+  font-size: 69px;
+  /* font-weight: 700; */
+}
+
+.Weather h2 {
+  font-size: 55px;
+  margin: 32px;
+  padding: 24px;
+}
+
+.App h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+h6 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.Weather p {
+  font-size: 18px;
+}
+
+a:hover {
+  color: grey;
+}
+
+.App {
+  margin: 16px;
+}
+
+.search-form {
+  border-radius: 16px;
+  height: 36px;
+  border: none;
+  margin: 16px;
+  padding: 16px;
+  color: #000;
+}
+
+.Weather {
+  text-align: center;
+  margin: 32px;
+}
+
+.Weather-info {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  margin: 24px;
+}
+
+.Weather .description p {
+  margin-top: 32px;
+  font-size: 23px;
+}
+
+.Weather img {
+  height: 128px;
+  margin-top: -24px;
+}
+
+ul {
+  list-style: none;
 }
