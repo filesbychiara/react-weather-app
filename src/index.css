@@ -12,6 +12,11 @@ body {
   background-image: url(/public/john-towner-89PFnHKg8HE-unsplash.jpg);
 }
 
+.Weather .FormattedDate {
+  padding-bottom: 16px;
+  
+}
+
 .Weather h1 {
   font-size: 69px;
   /* font-weight: 700; */
