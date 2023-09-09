@@ -10,11 +10,11 @@ function App() {
       <Weather defaultCity="Hong Kong" />
       <footer>
         <h6>
-          <a href="/" target="_blank">
+          <a href="https://github.com/filesbychiara/react-weather-app" target="_blank">
             Open source
           </a>{" "}
           by{" "}
-          <a href="/" target="_blank">
+          <a href="https://filesbychiara.netlify.app/" target="_blank">
             Chiara
           </a>
         </h6>

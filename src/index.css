@@ -64,15 +64,17 @@ a:hover {
   margin: 32px;
 }
 
-.Weather-info {
+.WeatherInfo {
   background: rgba(255, 255, 255, 0.15);
   border-radius: 16px;
   margin: 24px;
+  padding: 16px;
 }
 
 .Weather .description p {
   margin-top: 32px;
   font-size: 23px;
+  text-transform: capitalize;
 }
 
 .Weather img {
