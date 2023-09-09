@@ -43,6 +43,7 @@ h6 a {
 
 a:hover {
   color: black;
+  text-decoration: underline;
 }
 
 .App {
@@ -50,7 +51,7 @@ a:hover {
 }
 
 .search-form {
-  border-radius: 16px;
+  border-radius: 10px;
   height: 36px;
   border: none;
   margin: 16px;
