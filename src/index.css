@@ -14,7 +14,6 @@ body {
 
 .Weather .FormattedDate {
   padding-bottom: 16px;
-  
 }
 
 .Weather h1 {
@@ -65,7 +64,7 @@ a:hover {
 }
 
 .WeatherInfo {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(0, 0, 0, 0.25);
   border-radius: 16px;
   margin: 24px;
   padding: 16px;
@@ -77,8 +76,7 @@ a:hover {
   text-transform: capitalize;
 }
 
-.Weather img {
-  height: 128px;
+.Weather canvas {
   margin-top: -24px;
 }
 
