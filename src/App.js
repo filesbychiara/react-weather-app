@@ -7,7 +7,7 @@ function App() {
       <header>
         <h6>REACT WEATHER APP</h6>
       </header>
-      <Weather defaultCity="Hong Kong" />
+      <Weather defaultCity="London" />
       <footer>
         <h6>
           <a
