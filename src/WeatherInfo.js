@@ -8,16 +8,18 @@ function WeatherInfo(props) {
     <div>
       <div className="WeatherInfo">
         <h2>{props.data.city}</h2>
-        <p className="FormattedDate">
-          <FormattedDate date={props.data.date} />
-        </p>
+        <div>
+          <p className="FormattedDate">
+            <FormattedDate date={props.data.date} />
+          </p>
+        </div>
 
         <div className="row mt-5">
           <div className="col-4">
-          <WeatherTemperature celsius={props.data.temperature} />
+            <WeatherTemperature celsius={props.data.temperature} />
           </div>
           <div className="col-4">
-            <WeatherIcon code={props.data.icon} size={128}/>
+            <WeatherIcon code={props.data.icon} size={128} />
           </div>
           <div className="col-4 description">
             <p>{props.data.description}</p>
